@@ -77,8 +77,8 @@ Want to dive into the data yourself? Here's how:
 1. **Clone the Repo**:
 
    ```bash
-   git clone https://github.com/your-username/starbucks-capstone.git
-   cd starbucks-capstone
+   git [clone https://github.com/your-username/starbucks-capstone.git](https://github.com/CDJulius/CapStone-StarbucksProject)
+   
 
 Let’s Connect!
 Got questions, feedback, or just want to chat about data (or coffee)? Feel free to reach out:
