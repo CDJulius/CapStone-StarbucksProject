@@ -78,7 +78,11 @@ Want to dive into the data yourself? Here's how:
 
    ```bash
    git clone https://github.com/CDJulius/CapStone-StarbucksProject
-   
+
+# Blog Post
+  
+  For more insights and detailed analysis, check out my medium article about the Starbucks Capstone Challenge project.
+  [Starbucks Capstone Challenge project](https://medium.com/@craig.julius/unveiling-customer-behavior-with-data-insights-from-starbucks-capstone-challenge-f287f010b3f2)
 
 # Let's Connect!
 
