@@ -80,10 +80,13 @@ Want to dive into the data yourself? Here's how:
    git clone https://github.com/CDJulius/CapStone-StarbucksProject
    
 
-Let’s Connect!
+# Let's Connect!
+
 Got questions, feedback, or just want to chat about data (or coffee)? Feel free to reach out:
 
-Email: [craig.julius@vodacom.co.za](mailto:craig.julius@vodacom.co.za)
-GitHub: Your GitHub Profile
-Thanks for stopping by! Now go grab a coffee and start exploring the data. ☕✨
+- **Email**: <craig.julius@vodacom.co.za>
+- **GitHub**: [CDJulius](https://github.com/CDJulius)
+
+---
+
 Thanks for stopping by! Now go grab a coffee and start exploring the data. ☕✨
