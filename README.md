@@ -29,7 +29,7 @@ Here’s what you’ll find in this project:
 - **Starbucks_Capstone.ipynb:** The main Jupyter notebook containing the entire analysis, from data cleaning to visualization and insights.
 - **portfolio.json:** Contains details about Starbucks' offers, such as offer type, difficulty, reward, and duration.
 - **profile.json:** Contains demographic data about Starbucks customers, including age, gender, income, and membership start date.
-- **transcript.json:** Records customer interactions, such as offers received, viewed, completed, and transactions.
+- **transcript.zip:** Zipped json file, needs to be extracted to obtain transcript.json. Records customer interactions, such as offers received, viewed, completed, and transactions.
 - **README.md:** This file! It provides an overview of the project, the libraries used, the files in the repository, and a summary of the results.
 
 # Summary of Results
