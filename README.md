@@ -20,57 +20,70 @@ To install these libraries, run:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
-Files in the Repository
+```
+
+## Files in the Repository
+
 Here’s what you’ll find in this project:
 
-Starbucks_Capstone.ipynb: The main Jupyter notebook containing the entire analysis, from data cleaning to visualization and insights.
-portfolio.json: Contains details about Starbucks' offers, such as offer type, difficulty, reward, and duration.
-profile.json: Contains demographic data about Starbucks customers, including age, gender, income, and membership start date.
-transcript.json: Records customer interactions, such as offers received, viewed, completed, and transactions.
-README.md: This file! It provides an overview of the project, the libraries used, the files in the repository, and a summary of the results.
-Summary of Results
-Here’s a quick summary of what we discovered:
+- **Starbucks_Capstone.ipynb:** The main Jupyter notebook containing the entire analysis, from data cleaning to visualization and insights.
+- **portfolio.json:** Contains details about Starbucks' offers, such as offer type, difficulty, reward, and duration.
+- **profile.json:** Contains demographic data about Starbucks customers, including age, gender, income, and membership start date.
+- **transcript.json:** Records customer interactions, such as offers received, viewed, completed, and transactions.
+- **README.md:** This file! It provides an overview of the project, the libraries used, the files in the repository, and a summary of the results.
 
-Customer Demographics
-Age: Most Starbucks app users are middle-aged (30-50 years old).
-Income: The majority of customers earn between 50k and 100k annually.
-Gender: The gender distribution is fairly balanced, with slightly more female users.
-Offer Performance
-BOGO (Buy One Get One) and discount offers are the most popular, with high completion rates.
-Middle-aged, medium-income females are the most likely to complete offers.
-Customer Behavior
-Customers tend to spend consistently over time, with no clear spikes or dips in transaction amounts.
-Most offers are received and viewed, but not all are completed, suggesting room for improvement in offer design or targeting.
-Key Insights
-Demographics Matter: Middle-aged, medium-income females are the most responsive to offers.
-Offer Type Matters: BOGO and discount offers perform better than informational offers.
-Engagement is Key: Many customers view offers but don’t complete them, indicating a need for better targeting or incentives.
-Acknowledgements
-This project was inspired by the Udacity Data Scientist Nanodegree Capstone Challenge. Special thanks to:
+# Summary of Results
 
-Starbucks for providing the data.
-Udacity for the guidance and learning resources.
-The open-source community for maintaining the amazing libraries used in this project.
-How to Run This Project
-Want to dive into the data yourself? Here’s how:
+Here's a quick summary of what we discovered:
 
-Clone the Repo:
-git clone https://github.com/your-username/starbucks-capstone.git
-cd starbucks-capstone
-Set Up Your Environment:
-Make sure you have Python 3.x installed.
-Install the required libraries:
-pip install -r requirements.txt
-Run the Notebook:
-Open the Jupyter notebook (Starbucks_Capstone.ipynb) and start exploring!
+## Customer Demographics
+
+- **Age**: Most Starbucks app users are middle-aged (30-50 years old).
+- **Income**: The majority of customers earn between $50k and $100k annually.
+- **Gender**: The gender distribution is fairly balanced, with slightly more female users.
+
+## Offer Performance
+
+- **BOGO (Buy One Get One)** and **discount** offers are the most popular, with high completion rates.
+- Middle-aged, medium-income females are the most likely to complete offers.
+
+## Customer Behavior
+
+- Customers tend to spend consistently over time, with no clear spikes or dips in transaction amounts.
+- Most offers are received and viewed, but not all are completed, suggesting room for improvement in offer design or targeting.
+
+## Key Insights
+
+- **Demographics Matter**: Middle-aged, medium-income females are the most responsive to offers.
+- **Offer Type Matters**: BOGO and discount offers perform better than informational offers.
+- **Engagement is Key**: Many customers view offers but don't complete them, indicating a need for better targeting or incentives.
+
+---
+
+# Acknowledgements
+
+This project was inspired by the **Udacity Data Scientist Nanodegree Capstone Challenge**. Special thanks to:
+
+- **Starbucks** for providing the data.
+- **Udacity** for the guidance and learning resources.
+- The open-source community for maintaining the amazing libraries used in this project.
+
+---
+
+# How to Run This Project
+
+Want to dive into the data yourself? Here's how:
+
+1. **Clone the Repo**:
+
+   ```bash
+   git clone https://github.com/your-username/starbucks-capstone.git
+   cd starbucks-capstone
 
 Let’s Connect!
 Got questions, feedback, or just want to chat about data (or coffee)? Feel free to reach out:
 
-Email: [your-email@example.com](mailto:your-email@example.com)
-LinkedIn: Your LinkedIn Profile
+Email: [craig.julius@vodacom.co.za](mailto:craig.julius@vodacom.co.za)
 GitHub: Your GitHub Profile
 Thanks for stopping by! Now go grab a coffee and start exploring the data. ☕✨
-
-
-</span>
+Thanks for stopping by! Now go grab a coffee and start exploring the data. ☕✨
