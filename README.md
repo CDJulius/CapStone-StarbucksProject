@@ -133,7 +133,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 # Blog Post
   
   For more insights and detailed analysis, check out my medium article about the Starbucks Capstone Challenge project.
-  [Starbucks Capstone Challenge project](https://medium.com/@craig.julius/unveiling-customer-behavior-with-data-insights-from-starbucks-capstone-challenge-f287f010b3f2)
+  [Starbucks Capstone Challenge project](https://medium.com/@craig.julius/predicting-customer-behavior-a-data-driven-approach-to-offer-optimization-b26ac0fb672a)
 
 # Let's Connect!
 
