@@ -1,26 +1,25 @@
 # Starbucks Capstone Challenge: Brewing Insights from Customer Data ☕📊
 
-Welcome to the Starbucks Capstone Challenge! This project dives into Starbucks' customer and offer data to uncover insights that can help improve their marketing strategies. Whether you're a data science enthusiast, a coffee lover, or just someone who enjoys a good analysis, this project has something for you. Let's get brewing!
+Welcome to the **Starbucks Capstone Challenge**! This project dives into Starbucks' customer and offer data to uncover insights that can help improve their marketing strategies. Whether you're a data science enthusiast, a coffee lover, or just someone who enjoys a good analysis, this project has something for you. Let's get brewing!
 
-## Motivation
+---
 
+## **Motivation**
 Starbucks wants to understand how customers interact with their offers. Are some offers more effective than others? Do certain groups of customers respond better to specific types of offers? By analyzing customer demographics, offer details, and transaction data, we aim to uncover patterns that can help Starbucks tailor their offers to the right customers and improve their marketing strategies.
 
-## Libraries Used
+---
 
+## **Libraries Used**
 Here are the key Python libraries used in this project:
-
 - **Pandas**: For data manipulation and analysis.
 - **NumPy**: For numerical computations.
 - **Matplotlib** and **Seaborn**: For data visualization.
-- **Scikit-learn**: For machine learning (if applicable).
+- **Scikit-learn**: For machine learning (RandomForestRegressor, RandomForestClassifier, and hyperparameter tuning with RandomizedSearchCV).
 - **JSON**: For reading and processing JSON files.
 
 To install these libraries, run:
-
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
-```
 
 ## Files in the Repository
 
