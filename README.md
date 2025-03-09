@@ -20,7 +20,7 @@ Here are the key Python libraries used in this project:
 To install these libraries, run:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
-
+```
 ## Files in the Repository
 
 Here’s what you’ll find in this project:
@@ -31,6 +31,47 @@ Here’s what you’ll find in this project:
 - **transcript.zip:** Zipped json file, needs to be extracted to obtain transcript.json. Records customer interactions, such as offers received, viewed, completed, and transactions.
 - **README.md:** This file! It provides an overview of the project, the libraries used, the files in the repository, and a summary of the results.
 
+ ## Project Workflow
+ 
+**1. Data Loading:**
+- Load portfolio.json, profile.json, and transcript.json into Pandas DataFrames.
+
+**2. Data Cleaning:**
+- Handle missing values (e.g., replace age 118 with the median, fill missing income with the median, and encode unknown genders as 'U').
+- Convert became_member_on to datetime format.
+- Extract offer_id and amount from the value column in the transcript data.
+
+**3. Data Merging:**
+
+- Merge the portfolio, profile, and transcript datasets into a single DataFrame for analysis.
+
+**4. Feature Engineering:**
+
+- Create new features such as:
+- Age Groups: Binned into categories (e.g., 0-18, 19-35, 36-50, 51-65, 66-100).
+- Income Groups: Binned into categories (e.g., 0-30k, 30k-60k, 60k-90k, 90k-120k).
+- Gender Groups: Consolidated into 'M', 'F', and 'Other'.
+
+**5. Exploratory Data Analysis (EDA):**
+
+- Visualize customer demographics (age, income, and gender distributions).
+- Analyze offer performance by demographic groups and offer types.
+- Explore transaction patterns and offer completion rates.
+
+**6. Data Preparation for Modeling:**
+  
+- Prepare data for regression (predicting transaction amounts) and classification (predicting offer completion).
+- One-hot encode categorical variables and handle missing/infinite values.
+
+**7. Machine Learning Modeling:**
+
+- Regression: Use RandomForestRegressor with RandomizedSearchCV to predict transaction amounts.
+- Classification: Use RandomForestClassifier with RandomizedSearchCV to predict offer completion.
+- Evaluate models using metrics like Mean Squared Error (MSE), R² Score, Mean Absolute Error (MAE), and classification accuracy.
+
+**8. Insights and Recommendations:**
+- Summarize key findings and provide actionable recommendations for Starbucks.
+- 
 # Summary of Results
 
 Here's a quick summary of what we discovered:
@@ -65,7 +106,6 @@ This project was inspired by the **Udacity Data Scientist Nanodegree Capstone Ch
 
 - **Starbucks** for providing the data.
 - **Udacity** for the guidance and learning resources.
-- The open-source community for maintaining the amazing libraries used in this project.
 
 ---
 
@@ -73,11 +113,23 @@ This project was inspired by the **Udacity Data Scientist Nanodegree Capstone Ch
 
 Want to dive into the data yourself? Here's how:
 
-1. **Clone the Repo**:
+- **Clone the Repo:**
 
-   ```bash
-   git clone https://github.com/CDJulius/CapStone-StarbucksProject
+```bash
+git clone https://github.com/CDJulius/CapStone-StarbucksProject
+```
+- **Install Dependencies:**
 
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+- **Run the Jupyter Notebook:**
+
+- **Open Starbucks_Capstone.ipynb in Jupyter Notebook or JupyterLab.**
+
+- **Execute the cells to perform the analysis step-by-step.**
+  
 # Blog Post
   
   For more insights and detailed analysis, check out my medium article about the Starbucks Capstone Challenge project.
